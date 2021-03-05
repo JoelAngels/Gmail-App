@@ -1,6 +1,5 @@
-import { Checkbox, IconButton } from "@material-ui/core";
 import React from "react";
-import "./EmailList.css";
+import { Checkbox, IconButton } from "@material-ui/core";
 import ArrowDropDownIcon from "@material-ui/icons/ArrowDropDown";
 import RedIcon from "@material-ui/icons/Redo";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
@@ -12,6 +11,10 @@ import Section from "./Section";
 import InboxIcon from "@material-ui/icons/Inbox";
 import PeopleIcon from "@material-ui/icons/People";
 import LocalOfferIcon from "@material-ui/icons/LocalOffer";
+
+import "./EmailList.css";
+import EmailRow from "./EmailRow";
+
 function EmailList() {
   return (
     <div className="emailList">
@@ -52,7 +55,19 @@ function EmailList() {
         <Section Icon={LocalOfferIcon} title="Promotions" color="green" />
       </div>
       <div className="emailList__list">
-        <div className="emailRow"></div>
+        <EmailRow
+          title="Uebert Angel Minist."
+          subject="Online Ministry Academy"
+          description="This is a test"
+          time="12:07pm"
+        />
+        <EmailRow
+          title="Spotify"
+          subject="Breach in, breathe out"
+          description="Spend Time quality with yourself. 
+          Explore genres like:"
+          time="12:03pm"
+        />
       </div>
     </div>
   );
