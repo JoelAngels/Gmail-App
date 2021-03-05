@@ -47,9 +47,12 @@ function EmailList() {
 
       {/* This consists of the promotions, socials and Primary*/}
       <div className="emailList__sections">
-        <Section Icon={InboxIcon} title="primary" color="red" selected />
-        <Section Icon={PeopleIcon} title="social" color="#1A73EB" />
+        <Section Icon={InboxIcon} title="Primary" color="red" selected />
+        <Section Icon={PeopleIcon} title="Social" color="#1A73EB" />
         <Section Icon={LocalOfferIcon} title="Promotions" color="green" />
+      </div>
+      <div className="emailList__list">
+        <div className="emailRow"></div>
       </div>
     </div>
   );
