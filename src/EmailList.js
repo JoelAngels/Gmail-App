@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Checkbox, IconButton } from "@material-ui/core";
 import ArrowDropDownIcon from "@material-ui/icons/ArrowDropDown";
 import RedIcon from "@material-ui/icons/Redo";
@@ -11,11 +11,28 @@ import Section from "./Section";
 import InboxIcon from "@material-ui/icons/Inbox";
 import PeopleIcon from "@material-ui/icons/People";
 import LocalOfferIcon from "@material-ui/icons/LocalOffer";
+import { db } from "./firebase";
 
 import "./EmailList.css";
 import EmailRow from "./EmailRow";
 
 function EmailList() {
+  const [emails, setEmails] = useState([]);
+
+  //the work of useEffect says run this piece of code when it has a dependency as well as it changed the variable there once, in this case the dependency is the brackets, but if it is not there , it should run the code after every re-render.
+  useEffect(() => {
+    db.collection("emails")
+      .orderBy("timestamp", "desc")
+      .onSnapshot((snapshot) =>
+        setEmails(
+          snapshot.docs.map((doc) => ({
+            id: doc.id,
+            data: doc.data(),
+          }))
+        )
+      );
+  }, []);
+
   return (
     <div className="emailList">
       <div className="emailList__settings">
@@ -56,7 +73,7 @@ function EmailList() {
       </div>
       <div className="emailList__list">
         <EmailRow
-          title="Uebert Angel Minist."
+          title="Uebert Angel Ministry."
           subject="Online Ministry Academy"
           description="This is a test"
           time="12:07pm"
