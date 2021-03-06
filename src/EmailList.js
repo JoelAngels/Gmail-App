@@ -72,6 +72,17 @@ function EmailList() {
         <Section Icon={LocalOfferIcon} title="Promotions" color="green" />
       </div>
       <div className="emailList__list">
+        {emails.map(({ id, data: { to, subject, message, timestamp } }) => (
+          <EmailRow
+            id={id}
+            key={id}
+            title={to}
+            subject={subject}
+            description={message}
+            time={new Date(timestamp?.seconds * 1000).toUTCString()}
+          />
+        ))}
+
         <EmailRow
           title="Uebert Angel Ministry."
           subject="Online Ministry Academy"
@@ -83,6 +94,12 @@ function EmailList() {
           subject="Breach in, breathe out"
           description="Spend Time quality with yourself. 
           Explore genres like:"
+          time="12:03pm"
+        />
+        <EmailRow
+          title="Linkedin"
+          subject="Jeff and Kelvin want to join your network"
+          description="More opportunities to grow your network Joel Angel Here's"
           time="12:03pm"
         />
       </div>
