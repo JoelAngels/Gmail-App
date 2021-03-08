@@ -6,13 +6,21 @@ import LabelImportantOutlinedIcon from "@material-ui/icons/LabelImportantOutline
 
 import "./EmailRow.css";
 import { useHistory } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { selectMail } from "./features/mailSlice";
 
 function EmailRow({ id, title, subject, description, time }) {
   //this gives us the history of the web page
   const history = useHistory();
+  const dispatch = useDispatch();
+
+  const openMail = () => {
+    dispatch(selectMail({ id, title, subject, description, time }));
+    history.push("./mail");
+  };
 
   return (
-    <div onClick={() => history.push("/mail")} className="emailRow">
+    <div onClick={openMail} className="emailRow">
       <div className="emailRow__options">
         <Checkbox />
         <IconButton>
