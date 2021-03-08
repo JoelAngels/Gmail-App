@@ -8,8 +8,20 @@ import HelpOutlineIcon from "@material-ui/icons/HelpOutline";
 import AppsIcon from "@material-ui/icons/Apps";
 import SettingsIcon from "@material-ui/icons/Settings";
 import NotificationsIcon from "@material-ui/icons/Notifications";
+import { useDispatch, useSelector } from "react-redux";
+import { logout, selectUser } from "./features/userSlice";
+import { auth } from "./firebase";
 
 function Header() {
+  const user = useSelector(selectUser);
+
+  const dispatch = useDispatch();
+
+  const signOut = () => {
+    auth.signOut().then(() => {
+      dispatch(logout());
+    });
+  };
   return (
     <div className="header">
       {/* We are going to start and build from header left */}
@@ -40,7 +52,11 @@ function Header() {
         <IconButton>
           <NotificationsIcon />
         </IconButton>
-        <Avatar />
+        <Avatar
+          style={{ cursor: "pointer" }}
+          onClick={signOut}
+          src={user?.photoUrl}
+        />
       </div>
     </div>
   );
