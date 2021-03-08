@@ -102,6 +102,36 @@ function EmailList() {
           description="More opportunities to grow your network Joel Angel Here's"
           time="12:03pm"
         />
+        <EmailRow
+          title="Linkedin"
+          subject="Jeff and Kelvin want to join your network"
+          description="More opportunities to grow your network Joel Angel Here's"
+          time="12:03pm"
+        />
+        <EmailRow
+          title="Linkedin"
+          subject="Jeff and Kelvin want to join your network"
+          description="More opportunities to grow your network Joel Angel Here's"
+          time="12:03pm"
+        />
+        <EmailRow
+          title="Linkedin"
+          subject="Jeff and Kelvin want to join your network"
+          description="More opportunities to grow your network Joel Angel Here's"
+          time="12:03pm"
+        />
+        <EmailRow
+          title="Linkedin"
+          subject="Jeff and Kelvin want to join your network"
+          description="More opportunities to grow your network Joel Angel Here's"
+          time="12:03pm"
+        />
+        <EmailRow
+          title="Linkedin"
+          subject="Jeff and Kelvin want to join your network"
+          description="More opportunities to grow your network Joel Angel Here's"
+          time="12:03pm"
+        />
       </div>
     </div>
   );
