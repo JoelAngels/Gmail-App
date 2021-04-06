@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./App.css";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Mail from "./Mail";
 import EmailList from "./EmailList";
 import SendMail from "./SendMail";
@@ -34,7 +34,9 @@ function App() {
         }
       });
     },
-    /*we are putting dependencies before we want this to run once which is the array brackets*/ []
+    /*we are putting dependencies before we want this to run once which is the array brackets*/ [
+      dispatch,
+    ]
   );
 
   return (

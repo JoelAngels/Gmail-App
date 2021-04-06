@@ -82,56 +82,6 @@ function EmailList() {
             time={new Date(timestamp?.seconds * 1000).toUTCString()}
           />
         ))}
-
-        <EmailRow
-          title="Uebert Angel Ministry."
-          subject="Online Ministry Academy"
-          description="This is a test"
-          time="12:07pm"
-        />
-        <EmailRow
-          title="Spotify"
-          subject="Breach in, breathe out"
-          description="Spend Time quality with yourself. 
-          Explore genres like:"
-          time="12:03pm"
-        />
-        <EmailRow
-          title="Linkedin"
-          subject="Jeff and Kelvin want to join your network"
-          description="More opportunities to grow your network Joel Angel Here's"
-          time="12:03pm"
-        />
-        <EmailRow
-          title="Linkedin"
-          subject="Jeff and Kelvin want to join your network"
-          description="More opportunities to grow your network Joel Angel Here's"
-          time="12:03pm"
-        />
-        <EmailRow
-          title="Linkedin"
-          subject="Jeff and Kelvin want to join your network"
-          description="More opportunities to grow your network Joel Angel Here's"
-          time="12:03pm"
-        />
-        <EmailRow
-          title="Linkedin"
-          subject="Jeff and Kelvin want to join your network"
-          description="More opportunities to grow your network Joel Angel Here's"
-          time="12:03pm"
-        />
-        <EmailRow
-          title="Linkedin"
-          subject="Jeff and Kelvin want to join your network"
-          description="More opportunities to grow your network Joel Angel Here's"
-          time="12:03pm"
-        />
-        <EmailRow
-          title="Linkedin"
-          subject="Jeff and Kelvin want to join your network"
-          description="More opportunities to grow your network Joel Angel Here's"
-          time="12:03pm"
-        />
       </div>
     </div>
   );
