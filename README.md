@@ -13,12 +13,13 @@ You're sections headers will be used to reference location of destination.
 
 ## Description
 
-Creating ReadMe's for your Github repository can be tedious.  I hope this template can save you time and effort as well as provide you with some consistency across your projects.
+Built this Gmail Application that has the functionality of the Real Gmail Ap where you can compose your own Email. It uses the Official Google Authentication Service when loggin in. When a user wants to logout, he or she should click on the avatar icon in the page and it will automatically log them out. 
 
 #### Technologies
 
-- Technology 1
-- Technology 2
+- ⚛ ReactJS / REDUX / React-Router / Hooks / 
+- 🖥 HTML / CSS 
+- 🎨 Material UI / 
 
 [Back To The Top](#read-me-template)
 
@@ -28,13 +29,10 @@ Creating ReadMe's for your Github repository can be tedious.  I hope this templa
 
 #### Installation
 
+Run npm install to install the dependecies
 
+Run npm start to start the project
 
-#### API Reference
-
-```html
-    <p>dummy code</p>
-```
 [Back To The Top](#read-me-template)
 
 ---
