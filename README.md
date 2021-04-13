@@ -1,33 +1,29 @@
-# G
+# Gmail-Application
 
-![Project Image](project-image-url)
-
-> This is a ReadMe template to help save you time and effort.
-
----
+Live Demo - [Gmail App](https://joelangel.web.app)
 
 ### Table of Contents
 
-You're sections headers will be used to reference location of destination.
+Here are sections headers that will be used to reference location of destinations.
 
 - [Description](#description)
 - [How To Use](#how-to-use)
 - [References](#references)
-- [License](#license)
 - [Author Info](#author-info)
 
 ---
 
 ## Description
 
-Built this Gmail Application that has the functionality of the Real Gmail Ap where you can compose your own Email. It uses the Official Google Authentication Service when loggin in. When a user wants to logout, he or she should click on the avatar icon in the page and it will automatically log them out.
+Built this Gmail Application that has the functionality of the Real Gmail Ap where you can compose your own Email. It uses the Official Google Authentication Service when logging in and logging out
 
 #### Technologies
 
-- Technology 1
-- Technology 2
+- ⚛ ReactJS / REDUX / React-Router / Hooks /
+- 🖥 HTML / CSS
+- 🎨 Material UI /
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#Gmail-Application)
 
 ---
 
@@ -35,53 +31,33 @@ Built this Gmail Application that has the functionality of the Real Gmail Ap whe
 
 #### Installation
 
-#### API Reference
+#### Make sure Npm and Node is installed in your computer.
 
-```html
-<p>dummy code</p>
-```
+- Run `npm install` to install the dependencies
 
-[Back To The Top](#read-me-template)
+- Run `npm start` to start the Gmail Project
 
----
+- When the App is loaded, you will need to Login with your Google Account to have access of the Application
 
-## References
+- Each User can compose their own Email and it will display the Email at the top of the inbox section which can be clicked to display the data of the Message
 
-[Back To The Top](#read-me-template)
+- When a User wants to LogOut, the user needs to click on the Avatar Icon that display their picture.
+
+[Back To The Top](#Gmail-Application)
 
 ---
 
 ## License
 
-MIT License
+Copyright (©) [2021] [JoelAngel]
 
-Copyright (c) [2017] [James Q Quick]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-[Back To The Top](#read-me-template)
+[Back To The Top](#Gmail-Application)
 
 ---
 
 ## Author Info
 
-- Twitter - [@jamesqquick](https://)
-- Website - [](https://jamesqquick.com)
+- LinkedIn - [linkedIn](https://www.linkedin.com/in/joel-angel-4b05141a3/)
+- Website - [JoelAngel](https://joelangel.web.app)
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#Gmail-Application)
