@@ -1,4 +1,4 @@
-# Read Me Template
+# G
 
 ![Project Image](project-image-url)
 
@@ -7,6 +7,7 @@
 ---
 
 ### Table of Contents
+
 You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
@@ -19,7 +20,7 @@ You're sections headers will be used to reference location of destination.
 
 ## Description
 
-Creating ReadMe's for your Github repository can be tedious.  I hope this template can save you time and effort as well as provide you with some consistency across your projects.
+Built this Gmail Application that has the functionality of the Real Gmail Ap where you can compose your own Email. It uses the Official Google Authentication Service when loggin in. When a user wants to logout, he or she should click on the avatar icon in the page and it will automatically log them out.
 
 #### Technologies
 
@@ -34,18 +35,18 @@ Creating ReadMe's for your Github repository can be tedious.  I hope this templa
 
 #### Installation
 
-
-
 #### API Reference
 
 ```html
-    <p>dummy code</p>
+<p>dummy code</p>
 ```
+
 [Back To The Top](#read-me-template)
 
 ---
 
 ## References
+
 [Back To The Top](#read-me-template)
 
 ---
@@ -80,7 +81,7 @@ SOFTWARE.
 
 ## Author Info
 
-- Twitter - [@jamesqquick](https://twitter.com/jamesqquick)
-- Website - [James Q Quick](https://jamesqquick.com)
+- Twitter - [@jamesqquick](https://)
+- Website - [](https://jamesqquick.com)
 
 [Back To The Top](#read-me-template)
