@@ -31,7 +31,7 @@ function Sidebar() {
       <SidebarOption
         Icon={InboxIcon}
         title={"Inbox"}
-        number={54}
+        number={33}
         selected={true}
       />
       {/* This is for the starred */}
