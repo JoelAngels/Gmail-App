@@ -1,6 +1,6 @@
 # Gmail-Application
 
-Live Demo - [Gmail App](https://clone-77e58.web.app/)
+__Live Application__ - [Gmail App](https://clone-77e58.web.app/)
 
 ### Table of Contents
 
